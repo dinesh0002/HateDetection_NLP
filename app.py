@@ -3,7 +3,6 @@ import streamlit as st
 import re
 import nltk
 import pickle
-nltk.download('stopwords')
 stemmer = nltk.SnowballStemmer("english")
 from nltk.corpus import stopwords
 import string
